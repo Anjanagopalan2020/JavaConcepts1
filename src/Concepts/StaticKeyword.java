@@ -14,12 +14,12 @@ public class StaticKeyword {
 		System.out.println(this.r+" "+this.d+" "+name);
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws CloneNotSupportedException {
 		// TODO Auto-generated method stub
       
 		StaticKeyword a=new StaticKeyword(10,20);
 		a.display();
-		
+		a.clone();
 		
 
 		
