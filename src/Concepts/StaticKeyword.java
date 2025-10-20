@@ -19,7 +19,9 @@ public class StaticKeyword {
       
 		StaticKeyword a=new StaticKeyword(10,20);
 		a.display();
+		a.toString();
 		
+
 		
 	}
 
